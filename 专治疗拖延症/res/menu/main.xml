@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/im_bt"
+         android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/caidan"
+        android:actionViewClass="@drawable/daohang"/>
+    
+    <item
+        android:id="@+id/m_dinglan"
+        android:title="@string/app_name"
+        android:orderInCategory="100"
+        android:actionViewClass="@drawable/dinglan"/>
+
+</menu>

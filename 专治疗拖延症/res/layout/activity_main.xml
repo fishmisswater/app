@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" 
+        
+        android:background="@drawable/cheng"
+       >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:paddingLeft="50dp"
+           android:textSize="30sp"
+            android:ems="10" 
+            android:hint="吃早饭"
+            >
+
+        <requestFocus />
+        </EditText>
+	
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+   
+      android:background="@drawable/lan" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="取快递"
+            android:paddingLeft="50dp"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="60dp"
+        android:orientation="horizontal"
+     
+       android:background="@drawable/lv">
+          <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:paddingLeft="50dp"
+           android:textSize="30sp"
+            android:ems="10" 
+            android:hint="洗澡">
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+ 	<LinearLayout
+        android:layout_width="match_parent"
+     android:layout_height="60dp"
+        android:orientation="horizontal"
+     
+       android:background="@drawable/red">
+          
+ 	     <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:paddingLeft="50dp"
+           android:textSize="30sp"
+            android:ems="10" 
+            android:hint="洗头">
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+      android:layout_height="60dp"
+        android:orientation="horizontal"
+     
+       android:background="@drawable/zi">
+ 	     
+         <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:paddingLeft="50dp"
+           android:textSize="30sp"
+            android:ems="10" 
+            android:hint="健身">
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    
+    
+</LinearLayout>
